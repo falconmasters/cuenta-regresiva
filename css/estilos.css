@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #EFEFEF;
+	color: #363639;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* ? ----- PORTADA ----- */
+.portada {
+	width: 100%;
+	background: #CCC;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: .5s ease-out all;
+}
+
+
+
+.portada .header {
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.portada .header .logotipo {
+	font-size: 50px;
+	font-size: 900;
+	margin-bottom: 20px;
+}
+
+.portada .header .mensaje {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+
+
+/* ? ----- MAIN ----- */
+main {
+	max-width: 1000px;
+	margin: auto;
+	width: 90%;
+	padding: 50px 0;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: left;
+}
+
+
+
+/* ? ----- Cuenta Regresiva ----- */
+
+/* ? ---------------------------- */
+
+
+
+/* ? ----- REDES SOCIALES ----- */
+.redes-sociales .btn-red-social {
+	padding: 15px 0;
+	display: inline-block;
+	min-width: 120px;
+	border-radius: 5px;
+	background: #FF0000;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 20px;
+	transition: .3s ease all;
+}
+
+.redes-sociales .btn-red-social:hover {
+	box-shadow: 0px 0px 50px 10px rgba(0,0,0,.15);
+}
